@@ -102,7 +102,7 @@ const Sidebar: React.FC = () => {
       {/* Footer */}
       <div className="relative z-10 px-6 py-5 border-t border-white/5 text-center bg-[#050505]">
         <p className="text-[10px] text-slate-600 font-medium tracking-widest uppercase">
-          CIP v1.1 · Beta
+          Onco AI 2026
         </p>
       </div>
     </aside>
