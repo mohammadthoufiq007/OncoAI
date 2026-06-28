@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
-import { Bell, MagnifyingGlass as Search, Gear as Settings, User, WifiHigh as Wifi } from '@phosphor-icons/react';
+import { Bell, Gear as Settings, User, WifiHigh as Wifi } from '@phosphor-icons/react';
 
 const Header: React.FC = () => {
   const [time, setTime] = useState(new Date());
