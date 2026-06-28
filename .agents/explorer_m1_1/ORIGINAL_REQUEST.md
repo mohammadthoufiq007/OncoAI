@@ -1,0 +1,2 @@
+## 2026-06-25T22:46:41Z
+You are an Explorer. Investigate the environment at c:\Users\Thoufiq\Downloads\OncoAI\ to see if there is any hidden structure, and check the available tooling (Node, NPM versions, etc.). Write your findings to c:\Users\Thoufiq\Downloads\OncoAI\.agents\explorer_m1_1\findings.md. Recommend the exact commands to initialize React + Vite + TS and install the required dependencies (Tailwind CSS, GSAP, Framer Motion, Recharts) in the workspace. Do not execute any setup commands.

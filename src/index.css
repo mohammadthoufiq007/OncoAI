@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+@theme {
+  --color-deep-cobalt: #050505;
+  --color-slate-card: #0a0a0a;
+  --color-seafoam-green: #10B981;
+  --color-cerulean-blue: #0ea5e9;
+  --font-sans: "Geist", "Inter", sans-serif;
+  --font-mono: "Geist Mono", monospace;
+}
+
+@layer base {
+  body {
+    @apply bg-[#050505] text-slate-300 antialiased selection:bg-[#0ea5e9]/30 selection:text-white;
+  }
+}
