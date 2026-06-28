@@ -1,32 +1,37 @@
-# React + TypeScript + Vite
+# Cancer Intelligence Platform: Onco AI 2026
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Vanguard Clinical Engine for Precision Oncology Intelligence.
 
-Currently, two official plugins are available:
+## Features
+- **11 Clinical Modules** covering diagnostics, prognostics, and translational engines.
+- **Asymmetrical Bento Grid** landing page with staggered Framer Motion spring physics.
+- **Cockpit Density Architecture** for high-density data parsing in the Data Engine module.
+- **Patient Similarity Engine** to search historic cases.
+- **Fully Client-Side**: No backend required for demonstration; simulated deterministic models.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Tech Stack
+- React 18 + Vite
+- Tailwind CSS v4
+- Framer Motion & GSAP for animations
+- Recharts for data visualization
+- Phosphor Icons
 
-## React Compiler
+## Running Locally
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+1. Install dependencies:
+   ```bash
+   npm install
+   ```
 
-## Expanding the Oxlint configuration
+2. Start the development server:
+   ```bash
+   npm run dev
+   ```
 
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
+3. Build for production:
+   ```bash
+   npm run build
+   ```
 
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
-```
-
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+## Disclaimer
+This platform is for educational and portfolio purposes. Outputs are not clinical diagnoses and must not replace professional medical advice. Consult a licensed oncologist for any health decisions.
